@@ -1,0 +1,335 @@
+body{
+    background-color: black;
+    position: relative;
+}
+.home{
+    position: relative;
+    left: 500px;
+    bottom: 30px;
+}
+.deepak{
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+h1{
+    color: white;
+}
+
+.logo{
+    margin: 14px auto 14px 20px;
+}
+.logo img{
+    position: relative;
+    margin-left: 40px;
+    width: 74px;
+    height: 74px;
+}
+.first-div {
+    width: 100%;
+    position: relative;
+    margin: 1px ;
+    border-radius: 10px;
+    display: flex;
+} 
+.myslides{
+    display: none;
+} 
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  } 
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    
+  }
+ 
+ 
+.dots{
+    position: absolute;
+    bottom: 80px;
+    left: 700px;
+    text-align: center;
+}  
+  
+.dot:hover{
+    background-color: aqua;
+} 
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  } 
+.second-div{
+    margin: 20px 20px 20px 20px;
+    position: relative;
+    left: 50px;
+    width: 80%;
+    height: 50px;
+    /* background-color: aliceblue; */
+    
+} 
+marquee{
+    font-size: 20px;
+    color: green;
+} 
+.third-div{
+    background-color: #203239;
+    width: 100%;
+    height: 800px;
+}
+.img-div{
+    position: relative;
+    left: 50px;
+    height: 550px;
+    width: 424px;
+    top: 10px;
+
+} 
+.h2text{
+    position: relative;
+    top: 8px;
+    left: 30px;
+    font-size: 1.1rem;
+
+}
+
+/* .isrn-img{
+    width: 300px;
+    height: 300px;
+} */
+h2{
+    color: white;
+
+}
+.h2txt{
+    position: relative;
+    left: 760px;
+    bottom: 540px;
+    font-size: 1.1rem;
+
+}
+.carousel{
+    position: relative;
+    width: 50%;
+    left: 600px;
+    bottom: 510px;
+}
+.carousel-cell {
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: gallery-cell;
+  }
+.dee{
+    position: relative;
+    left: 600px;
+    bottom: 350px;
+} 
+.fh2{
+    font-size: 1.1rem;
+} 
+.carousels{
+    position: relative;
+    width: 80%;
+    left: 130px;
+}
+.fourth-div{
+    background-color: black;
+}
+.five-div{
+    background-color: #FF9292;
+    margin: 70px 70px 70px 70px;
+    border-radius: 30px;
+}
+.headtxt{
+    font-size: 1.4rem;
+    position: relative;
+    top: 20px;
+
+}
+.imgsize{
+    border-radius: 30px;
+}
+.tableimg{
+    padding: 30px;
+}
+.six-div{
+    margin: 35px 35px 35px 35px;
+}
+.txth{
+    font-size: 1.4rem;
+    position: relative;
+    top: 20px;
+
+}
+.imgpdf{
+    padding: 40px;
+}
+.seven-div{
+    margin: 30px 30px 30px 30px;
+    height: 600px;
+}
+.txthe{
+    font-size: 1.4rem;
+    position: relative;
+    top: 20px;
+
+}
+.imgvoloum{
+    padding: 20px;
+}
+h3{
+    color: white;
+}
+.xt{
+    padding: 100px;
+}
+.voltxt{
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    bottom: 100px;
+}
+.eight-div{
+    margin: 20px 20px 20px 20px;
+}
+.txthei{
+    font-size: 1.6rem;
+    position: relative;
+    top: 1px;
+
+}
+.imgreport{
+    padding: 25px;
+}
+.nine-div{
+    margin: 20px 20px 20px 20px;
+}
+.txtheij{
+    font-size: 1.7rem;
+    position: relative;
+    top: 1px;
+
+}
+.ten-div{
+    margin: 25px 25px 25px 25px;
+    height: 600px;
+}
+.txtheijk{
+    font-size: 1.7rem;
+    position: relative;
+    top: 1px;
+
+}
+.zt{
+    padding: 107px;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    top: 80px;
+    left: 30px;
+}
+.yt{
+    padding: 107px;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    top: 80px;
+}
+.tenimg{
+    padding: 20px;
+}
+.eleven-div{
+    margin: 25px 25px 25px 25px;
+    height: 400px;
+}
+.txtheijkl{
+    font-size: 1.7rem;
+    position: relative;
+    top: 15px
+}
+.imginvolve{
+    padding: 40px;
+}
+.carousel-cells{
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: gallery-cell;
+}
+.carouselse{
+    position: relative;
+    width: 90%;
+    left: 100px;
+    
+} 
+.t{
+    font-size: 1.7rem;
+    position: relative;
+    top: 10px;
+
+}
+.w{
+    padding: 100px;
+}
+.thirteen-div{
+    margin: 25px 25px 25px 25px;
+    height: 700px;
+}
+.ah{
+    font-size: 1.7rem;
+    position: relative;
+    top: 10px;
+
+}
+.fourteen-div{
+    margin: 15px 15px 15px 15px;
+    height: 300px;
+    background-color: black;
+    margin-bottom: 200px;
+}
+.ag{
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    
+
+}
+h4{
+    color: white;
+    font-size: 1.2rem;
+}
+h5{
+    color: gray;
+    font-size: 1rem;
+}
+.media{
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    position: relative;
+    left: 500px;
+    bottom: 425px;
+    
+
+}
+.linked{
+    padding: 10px;
+}
+.facebook{
+    position: relative;
+    left: 1100px;
+    bottom: 820px;
+    height: 200px;
+
+}

@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!-- <script>
+        var elem = document.querySelector('.carousels');
+        var flkty = new Flickity( elem, {
+            // options
+            cellAlign: 'left',
+            contain: true,
+            // autoPlay: true,
+            autoPlay: 2000,
+            // pauseAutoPlayOnHover: false
+            });
+        </script>  -->
+</head>
+<body>
+    <!-- <h1>Viresh gupta and Vinta gupta</h1> -->
+    <div class="logo">
+        <a href=""><img src="https://isrn.in/wp-content/uploads/2019/07/cropped-Final-Testing.png" alt=""></a>
+        <div class="home">
+            <a href="index.html"><h3 class="deepak">Home</h3></a>
+        </div>
+        
+
+    </div>
+    <!-- first div slider start -->
+    <div class="first-div">
+            <div class="myslides fade">
+                <img id="1" src="https://isrn.in/wp-content/uploads/2021/05/Donate-to-ISRN.jpg" width="118%" alt="">
+            </div>
+            <div class="myslides fade">
+                <img id="2" src="https://isrn.in/wp-content/uploads/2020/07/Network-Header-Banner.jpg" width="100%" alt="">
+            </div> 
+            <div class="myslides fade">
+                <img id="3" src="https://isrn.in/wp-content/uploads/2020/08/Uttam-School.jpg" width="100%" alt="">
+            </div> 
+            <div class="myslides fade">
+                <img id="4" src="https://isrn.in/wp-content/uploads/2020/08/MHU-1.jpg" width="100%" alt="">
+            </div>    
+            <div class="myslides fade">
+                <img id="5" src="https://isrn.in/wp-content/uploads/2021/05/Corona-Header-2.jpg" width="100%" alt="">
+            </div>    
+            <div class="myslides fade">
+                <img id="6" src="https://isrn.in/wp-content/uploads/2021/05/Corona-Header-1.jpg" width="100%" alt="">
+            </div>    
+            <div class="myslides fade">
+                <img id="7" src="https://isrn.in/wp-content/uploads/2021/02/FPO-Promotion-ISRN-2.jpg" width="118%" alt="">
+            </div>    
+            <div class="myslides fade">
+                <img id="8" src="https://isrn.in/wp-content/uploads/2021/02/Webiste_Banner.png" width="118%" alt="">
+            </div>
+    <!-- circle dots start --> 
+            <div  class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+            </div>
+    </div>   
+    
+
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("myslides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+<!-- <h1>viresh guota and vinita gupta</h1> -->
+<div class="second-div">
+    <marquee  behavior="" direction="">
+        The successful execution of 5 E-Session Discussion Series “Clear your doubts about Covid: Live chat with experts,” resulted an overall reach of more then 30,000 people. 
+    </marquee>
+</div>
+
+<div class="third-div">
+    
+    <div class="img-div">
+        <div class="h2text">
+            <h2>
+                ISRN 1st QTR E-Newsletter 2021
+            </h2>
+        </div>
+        
+        <div class="isrn-img">
+            <img src="https://isrn.in/wp-content/uploads/2019/04/1st-QTR-E-Newsletter.jpg" width="100%" height="630px" alt="">
+        </div>
+    </div>
+    <div class="h2txt">
+        <h2>ISRN's Initiative to Fight the Pandemic</h2>
+
+    </div>
+    <div class="carousel">
+        <div class="carousel-cell">
+            <img src="https://isrn.in/wp-content/uploads/2021/05/1.jpg"  width="180px" alt="">
+        </div>
+        <div class="carousel-cell">
+            <img src="https://isrn.in/wp-content/uploads/2021/05/2nd.jpg"width="180px" alt="">
+
+        </div>
+        <div class="carousel-cell">
+            <img src="https://isrn.in/wp-content/uploads/2021/05/3.jpg"width="180px"  alt="">
+
+        </div>
+        <div class="carousel-cell">
+            <img src="https://isrn.in/wp-content/uploads/2021/05/6.jpg"width="180px"  alt="">
+
+        </div>
+        <div class="carousel-cell">
+            <img src="https://isrn.in/wp-content/uploads/2021/05/4.jpg"width="180px"  alt="">
+
+        </div>
+        <div class="carousel-cell">
+            <img src="https://isrn.in/wp-content/uploads/2021/05/7.jpg"width="180px"  alt="">
+
+        </div>
+        <div class="carousel-cell">
+            <img src="https://isrn.in/wp-content/uploads/2021/05/4.jpg"width="180px"  alt="">
+
+        </div> 
+
+
+    </div>
+    <div class="dee">
+        <img src="https://isrn.in/wp-content/uploads/2019/04/3rd-Reach-and-Impact-2.png" width="700px" alt="">
+    </div>
+   
+</div>    
+<!-- <script>
+var elem = document.querySelector('.carousel');
+var flkty = new Flickity( elem, {
+// options
+    cellAlign: 'left',
+    contain: true,
+    // autoPlay: true,
+    autoPlay: 3000,
+    // pauseAutoPlayOnHover: false
+    });
+</script> -->
+
+
+
+<!-- div 4 start -->
+<div class="fourth-div">
+    <div class="fh2" style="text-align: center;">
+        <h2>COVID-19 Patients: Do's and Dont's</h2>
+    </div>
+    <div class="carousels">
+        <div class="carousel-cell">
+            <img src="https://isrn.in/wp-content/uploads/2021/07/1.jpg"  width="300px" alt="">
+        </div>
+        <div class="carousel-cell">
+            <img src="https://isrn.in/wp-content/uploads/2021/07/3.jpg"width="300px" alt="">
+
+        </div>
+        <div class="carousel-cell">
+            <img src="https://isrn.in/wp-content/uploads/2021/07/3.jpg"width="300px"  alt="">
+
+        </div>
+        <div class="carousel-cell">
+            <img src="https://isrn.in/wp-content/uploads/2021/07/4.jpg"width="300px"  alt="">
+
+        </div>
+        <div class="carousel-cell">
+            <img src="https://isrn.in/wp-content/uploads/2021/07/5.jpg"width="300px"  alt="">
+
+        </div>
+        <div class="carousel-cell">
+            <img src="https://isrn.in/wp-content/uploads/2021/07/6.jpg"width="300px"  alt="">
+
+        </div>
+        <div class="carousel-cell">
+            <img src="https://isrn.in/wp-content/uploads/2021/07/7.jpg"width="300px"  alt="">
+
+        </div> 
+        <div class="carousel-cell">
+            <img src="https://isrn.in/wp-content/uploads/2021/07/8.jpg"width="300px"  alt="">
+
+        </div>
+        <div class="carousel-cell">
+            <img src="https://isrn.in/wp-content/uploads/2021/07/9.jpg"width="300px"  alt="">
+
+        </div>
+        <div class="carousel-cell">
+            <img src="https://isrn.in/wp-content/uploads/2021/07/Proning-in-Covid-19-Patients.jpg"width="300px"  alt="">
+
+        </div>
+        <div class="carousel-cell">
+            <img src="https://isrn.in/wp-content/uploads/2021/07/What-is-Black-Fungus.jpg"width="300px"  alt="">
+
+        </div>
+        <div class="carousel-cell">
+            <img src="https://isrn.in/wp-content/uploads/2021/07/When-to-suspect-Black-Fungus.jpg"width="300px"  alt="">
+
+        </div>
+        <div class="carousel-cell">
+            <img src="https://isrn.in/wp-content/uploads/2021/07/Dos-and-Donts.jpg"width="300px"  alt="">
+
+        </div>
+
+
+    </div>
+    
+</div>
+    <!-- third div script -->
+<script>
+    var elem = document.querySelector('.carousel');
+    var flkty = new Flickity( elem, {
+    // options
+        cellAlign: 'left',
+        contain: true,
+        // autoPlay: true,
+        autoPlay: 3000,
+        // pauseAutoPlayOnHover: false
+        });
+    </script>  
+    <!-- forth div script   -->
+<script>
+var elem = document.querySelector('.carousels');
+var flkty = new Flickity( elem, {
+    // options
+    cellAlign: 'left',
+    contain: true,
+    // autoPlay: true,
+    autoPlay: 2000,
+    // pauseAutoPlayOnHover: false
+    });
+</script>    
+<div class="five-div">
+    <div class="headtxt" style="text-align: center;">
+        <h2>
+            Our Interventions
+        </h2>
+    </div>
+    <div class="tableimg" >
+        <center>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><img class="imgsize" src="https://isrn.in/wp-content/uploads/2019/04/Network-of-800-Members_website.jpg"  width="320px" height="200px" alt=""></td>
+                        <td><img class="imgsize" src="https://isrn.in/wp-content/uploads/2019/04/45-Uttam-SchoolsCreated-2.jpg" width="320px" height="200px" alt=""></td>
+                        <td><img class="imgsize" src="https://isrn.in/wp-content/uploads/2019/05/Second.jpg" width="320px" height="200px" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td><img class="imgsize" src="https://isrn.in/wp-content/uploads/2019/05/Ninth.jpg"  width="320px" height="200px" alt=""></td>
+                        <td><img class="imgsize" src="https://isrn.in/wp-content/uploads/2019/05/First.jpg" width="320px" height="200px" alt=""></td>
+                        <td><img class="imgsize" src="https://isrn.in/wp-content/uploads/2019/05/Third.jpg" width="320px" height="200px" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td><img class="imgsize" src="https://isrn.in/wp-content/uploads/2019/05/Eight.jpg"  width="320px" height="200px" alt=""></td>
+                        <td><img class="imgsize" src="https://isrn.in/wp-content/uploads/2019/05/Seventh.jpg" width="320px" height="200px" alt=""></td>
+                        <td><img class="imgsize" src="https://isrn.in/wp-content/uploads/2019/05/Fifth.jpg" width="320px" height="200px" alt=""></td>
+                    </tr>
+                </tbody>
+            </table>
+    </center>
+    </div>
+</div>
+<div class="six-div">
+    <div class="txth" style="text-align: center;">
+        <h2>
+            Publications
+        </h2>
+    </div>
+    <div class="pdftable">
+        <center>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><a href="isrnimgpdf.pdf"><img class="imgpdf" src="https://isrn.in/wp-content/uploads/2019/08/Compendium-P.png" width="300px" height="440px" alt=""></a></td>
+                        <td><a href="isrnimgpdf.pdf"><img class="imgpdf" src="https://isrn.in/wp-content/uploads/2019/08/Souvenior-P.png" width="300px" height="440px" alt=""></a></td>
+                        <td><a href="isrnimgpdf.pdf"><img class="imgpdf" src="https://isrn.in/wp-content/uploads/2019/08/Relationship-P.png" width="300px" height="440px" alt=""></a></td>
+
+                    </tr>
+                </tbody>
+            </table>
+    </center>
+
+    </div>
+
+</div>
+<div class="seven-div">
+    <div class="txthe" style="text-align: center;">
+        <h2>
+            The Vision of Antyodaya-Ebook
+        </h2>
+    </div>
+    <div class="volumdiv">
+        <center>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><a href="https://docs.google.com/forms/d/e/1FAIpQLScXr5ao9CHnldvpssCYMEjrHiMYdMfV6fjZzVeyw5BGnSaDFQ/viewform"><img class="imgvoloum" src="https://isrn.in/wp-content/uploads/2019/07/Short-Book.png" width="240px" height="340px" alt=""></a></td>
+                        <td><a href="https://docs.google.com/forms/d/e/1FAIpQLScEoEAeXJ_nmeMgQEsp6yww5Gcqfk3pp_XaawMgxZ1LikJsmg/viewform"><img class="imgvoloum" src="https://isrn.in/wp-content/uploads/2019/07/Volume-1.png" width="240px" height="340px" alt=""></a></td>
+                        <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdKLoOoTrAFLxkVOXasL0N_MpvN3UTaZAaFSKfTDH0xZUztig/viewform"><img class="imgvoloum" src="https://isrn.in/wp-content/uploads/2019/07/Volume-2.png" width="240px" height="340px" alt=""></a></td>
+                        <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeHl0qHuNOrlXCf4vXQhRXXahWq9wAfjc4Bo-DMMNCPo749Ow/viewform"><img class="imgvoloum" src="https://isrn.in/wp-content/uploads/2019/07/Volume-4.png" width="240px" height="340px" alt=""></a></td>
+                        <td><a href="https://docs.google.com/forms/d/e/1FAIpQLScMrEYo8o7kk8f29itXmokhfIeHvIsfu3NZ2AXomqf_SFs3wA/viewform"><img class="imgvoloum" src="https://isrn.in/wp-content/uploads/2019/07/Volume-3.png" width="240px" height="340px" alt=""></a></td>
+
+                    </tr>
+                </tbody>
+            </table>
+    </center>
+    <div class="voltxt">
+        <center>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><h3 class="xt">Voloum 1</h3></td>
+                        <td><h3 class="xt">Voloum 2</h3></td>
+                        <td><h3 class="xt">Voloum 3</h3></td>
+                        <td><h3 class="xt">Voloum 4</h3></td>
+                        <td><h3 class="xt">Voloum 5</h3></td>
+
+                    </tr>
+                </tbody>
+            </table>
+    </center>
+
+    </div>
+
+    </div>
+</div>
+<div class="eight-div">
+    <div class="txthei" style="text-align: center;">
+        <h2>
+            Annual Report
+        </h2>
+    </div>
+    <div class="reportdiv">
+        <center>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdBdB10vRSuf1xR_Y2NZS0BZiDGOIBlpcVut2N8ng5r01KCOw/viewform"><img class="imgreport" src="https://isrn.in/wp-content/uploads/2019/04/Annual-Report-2014-2015-1.png" width="270px" height="300px" alt=""></a></td>
+                        <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdBdB10vRSuf1xR_Y2NZS0BZiDGOIBlpcVut2N8ng5r01KCOw/viewform"><img class="imgreport" src="https://isrn.in/wp-content/uploads/2019/04/Annual-Report-2015-2016-2.png" width="270px" height="300px" alt=""></a></td>
+                        <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdW3fFGkZISx2SvNW8URmUkqLO3-QmVIe4GOAM0mViNGVd1Xw/viewform"><img class="imgreport" src="https://isrn.in/wp-content/uploads/2019/04/Annual-Report-2016-2017-2.png" width="270px" height="300px" alt=""></a></td>
+                        <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeb-uQfY4ZaCvQk08ozKchC-oQZV_F1BRUXR05Rq1XjT4Q00w/viewform"><img class="imgreport" src="https://isrn.in/wp-content/uploads/2019/04/Annual-Report-2017-2018-1.png" width="270px" height="300px" alt=""></a></td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </center>
+    </div>
+
+</div>
+<div class="nine-div">
+    <div class="txtheij" style="text-align: center;">
+        <h2>
+            Network of 800+ Organizations
+        </h2>
+    </div>
+    <div class="mapindia">
+        <center>
+            <img src="map-india.png" width="500px" height="500px" alt="">
+        </center>
+
+    </div>
+
+</div>
+<div class="ten-div">
+    <div class="txtheijk" style="text-align: center;">
+        <h2>
+            Current Events and Updates
+        </h2>
+    </div>
+    <div class="updatediv">
+        <div class="uptxt">
+            <center>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><h3 class="zt">Mobile Health Unit-MHU</h3></td>
+                            <td><h3 class="zt">Antyodaya Shiksha Prerak Campaign</h3></td>
+                            <td><h3 class="yt">Transformation into Uttam Schools</h3></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </center>
+    
+        </div>
+            <center>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><img class="tenimg" src="https://isrn.in/wp-content/uploads/2019/04/Untitled-2.png" width="400px" height="280px" alt=""></td>
+                            <td><img class="tenimg" src="https://isrn.in/wp-content/uploads/2019/04/Antyodaya-Shiksha-Prerak.jpg" width="400px"height="280px" alt=""></td>
+                            <td><img class="tenimg" src="https://isrn.in/wp-content/uploads/2019/06/Untilted-3.png" width="400px" height="280px" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </center>
+        </div>
+    
+
+</div>
+<div class="eleven-div">
+    <div class="txtheijkl" style="text-align: center;">
+        <h2>
+            Get Involved
+        </h2>
+    </div>
+    <div class="involvediv">
+        <center>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><img class="imginvolve" src="https://isrn.in/wp-content/uploads/2019/06/ISRN-Membership.png" width="300px" height="200px" alt=""></td>
+                        <td><img class="imginvolve" src="https://isrn.in/wp-content/uploads/2019/06/Volunteer1.png" width="300px" height="200px" alt=""></td>
+                        <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfnjLOxyQwu68kAQEkBRpKEVgA4aa-zj8OXMJCZKvQW0r2Y2w/viewform"><img src="https://isrn.in/wp-content/uploads/2019/04/27th-March-Post-2.png" width="300px" height="200px" alt=""></a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </center>
+    </div>
+
+</div>
+<div class="twele-div">
+    <div class="t" style="text-align: center;">
+        <h2>
+            Awards/Accreditations
+        </h2>
+    </div>
+    <div class="carouselse">
+        <div class="carousel-cells">
+            <img class="w" src="https://isrn.in/wp-content/uploads/2021/02/Gramodaya-Bandhu-Mitra-Puraskar-2020.png"  width="300px"  height="250px" alt="">
+        </div>
+        <div class="carousel-cells">
+            <img  class="w" src="https://isrn.in/wp-content/uploads/2021/02/Sewa-Ratna-National-Award-2018.png"width="300px" height="250px" alt="">
+
+        </div>
+        <div class="carousel-cells">
+            <img class="w" src="https://isrn.in/wp-content/uploads/2021/02/Social-Innovative-ESW-National-Award-2021.jpg"width="300px" height="250px"  alt="">
+
+        </div>
+        <div class="carousel-cells">
+            <img class="w" src="https://isrn.in/wp-content/uploads/2021/02/Social-Innovative-ESW-National-Award-2021.jpg"width="300px" height="250px" alt="">
+
+        </div>
+        
+
+
+    </div>
+    
+
+</div>
+<script>
+var elem = document.querySelector('.carouselse');
+var flkty = new Flickity( elem, {
+        // options
+    cellAlign: 'left',
+    contain: true,
+    // autoPlay: true,
+    autoPlay: 3000,
+    // pauseAutoPlayOnHover: false
+    });
+</script> 
+<div class="thirteen-div">
+    <center>
+        <div class="ah">
+            <h2>
+                CSR With ISRN
+            </h2>
+        </div>
+        <div class="img13">
+            <img src="https://isrn.in/wp-content/uploads/2019/04/Website-Header.jpg" alt="">
+        </div>
+    </center>
+</div>
+<div class="fourteen-div">
+    
+    <div class="ag">
+        <h4>
+            GET IN TOUCH
+        </h4>
+        <div class="pdiv">
+            <h5>K-13, First Floor, South Extension Part II, New Delhi, Delhi 110049</h5>
+        </div>
+        <div  class="ediv">
+            <h5>Email : info@isrn.in</h5>
+        </div>
+        
+    </div>
+    <div class="media">
+        <h4>STAY IN TOUCH WITH US!</h4>
+        <div class="link">
+            <table>
+                <tbody>
+                    <tr>
+                        <td><a href="https://www.facebook.com/isrnnewdelhi/"><img class="linked" src="facebook logo-modified.png" width="25px" alt=""></a></td>
+                        <td><a href="https://twitter.com/ISRNnewdelhi"><img class="linked" src="filename (1).jpg" width="25px" alt=""></a></td>
+                        <td><a href="https://www.instagram.com/isrnnewdelhi/"><img class="linked" src="instagram logo-modified.png"width="25px" alt=""></a></td>
+                        <td><a href="https://www.linkedin.com/in/isrnnewdelhi/"><img class="linked" src="filename (2).jpg" width="25px"alt=""></a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+        <div class="facebook">
+            <a href="https://www.facebook.com/isrnnewdelhi/photos/a.1949609125327417/3119616328326685/?type=3"><img src="https://scontent-sin6-1.xx.fbcdn.net/v/t39.30808-6/275989845_3119616378326680_2614508401615157130_n.jpg?stp=dst-jpg_s370x247&_nc_cat=111&ccb=1-5&_nc_sid=110474&_nc_ohc=EOCv4PaOgLQAX_VIzS6&_nc_ht=scontent-sin6-1.xx&oh=00_AT8-sfSs36cYwnKEcs_rSDy5nf2ypKr_oF93O-1_HVIDoQ&oe=6236A15E" width="330px" height="400px" alt=""></a>
+
+            
+        </div>
+        
+
+
+</div>
+
+
+
+
+</body>
+</html>
